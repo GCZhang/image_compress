@@ -35,7 +35,7 @@ for k,ax in zip([1, 10, 50, 100], axs.flatten()[2:]):
     ax.set_title(title, size=16)
     ax.axis('off')
 
-fig.subplots_adjust(hspace=0)
+# fig.subplots_adjust(hspace=0)
 
 plt.tight_layout()
 plt.savefig('reconstructed_images_using_different_SVs.jpg', dpi=300)
